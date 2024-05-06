@@ -1,4 +1,4 @@
-import { SonnetComponent } from '@sonnetjs/core';
+import { $component, SonnetComponent } from '@sonnetjs/core';
 import { a, div, section } from '@sonnetjs/html';
 import { TickIcon, CopyIcon, SquarePatterns } from '../assets';
 
@@ -48,7 +48,7 @@ class HeroSection extends SonnetComponent {
                 'text-neutral-600 text-sm sm:py-4 md:py-8 sm:text-base md:text-lg lg:text-xl text-center',
               )
               .innerText(
-                'A framework for building web applications with a focus on simplicity and performance with native feel.',
+                'An opinionated framework for writing clean and organized Vanilla JavaScript code',
               )
               .get(),
             div()
@@ -97,4 +97,4 @@ class HeroSection extends SonnetComponent {
   }
 }
 
-export default HeroSection;
+export default $component(HeroSection);
