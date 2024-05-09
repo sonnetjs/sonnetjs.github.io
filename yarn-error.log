@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Hafiz\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\xampp\php;C:\ProgramData\chocolatey\bin;C:\MinGW\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;E:\xampp\php\php;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\Neovim\bin;E:\Program Files\PuTTY\;C:\Users\Hafiz\AppData\Local\Programs\Python\Python38\;C:\src\mingw64\bin;C:\Program Files\Go\bin;C:\Program Files\PostgreSQL\16\bin;C:\Users\Hafiz\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Java\jdk-21\bin;E:\Program Files\Git\cmd;C:\Program Files\CodeBlocks\MinGW\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hafiz\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Hafiz\AppData\Local\Programs\Python\Python311\;C:\Users\Hafiz\scoop\shims;C:\Users\Hafiz\AppData\Local\Microsoft\WindowsApps;C:\Users\Hafiz\AppData\Local\Programs\Microsoft VS Code\bin;E:\Questasim\win64;C:\questasim64_2021.1\win64;C:\questasim64_10.6c\win64;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;C:\Users\Hafiz\AppData\Local\Microsoft\WindowsApps;C:\Users\Hafiz\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\NASM;C:\MinGW\bin;"C:\mingw32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\";C:\Users\Hafiz\.dotnet\tools;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\Neovim\bin;C:\Users\Hafiz\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Hafiz\AppData\Local\gitkraken\bin;C:\src\flutter\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git;C:\Users\H;C:\Users\Hafiz\AppData\Roaming\npm;C:\Users\Hafiz\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Hafiz\AppData\Roaming\Composer\vendor\bin;E:\Program Files\IntelliJ IDEA 2023.3.5\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Projects\sonnetjs\sonnetjs.github.io\package.json: Expected double-quoted property name in JSON at position 237
+      at JSON.parse (<anonymous>)
+      at C:\Users\Hafiz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Hafiz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Hafiz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "web",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@sonnetjs/core": "0.0.23",
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.19",
+      "postcss": "^8.4.38",
+      "tailwindcss": "^3.4.3",
+      "typescript": "^5.3.3",
+      "vite": "^5.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

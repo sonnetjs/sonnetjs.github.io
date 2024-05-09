@@ -9,8 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@sonnetjs/core": "0.0.23",
-    "@sonnetjs/html": "0.0.2"
+    "@sonnetjs/core": "0.0.23"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
