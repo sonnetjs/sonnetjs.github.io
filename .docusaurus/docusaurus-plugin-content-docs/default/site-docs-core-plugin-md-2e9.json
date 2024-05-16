@@ -1,0 +1,27 @@
+{
+  "id": "core/plugin",
+  "title": "Plugin",
+  "description": "Sonnet JS provides a plugin system that allows you to extend the core functionality of the framework. Plugins can be used to add new features, modify existing features, or integrate third-party libraries. This guide will show you how to create and use plugins in Sonnet JS.",
+  "source": "@site/docs/core/plugin.md",
+  "sourceDirName": "core",
+  "slug": "/core/plugin",
+  "permalink": "/docs/core/plugin",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/core/plugin.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "SSR",
+    "permalink": "/docs/core/ssr"
+  },
+  "next": {
+    "title": "Sonnet DOM",
+    "permalink": "/docs/category/sonnet-dom"
+  }
+}

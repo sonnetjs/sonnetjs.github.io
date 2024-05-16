@@ -1,0 +1,27 @@
+{
+  "id": "getting-started/overview",
+  "title": "Overview",
+  "description": "Sonnet JS is a ligtweight, fast and easy to use JavaScript framework for building modern web applications. It is more or less a way to structure your Vanilla JS code in a way that is more maintainable and scalable. It is not a full-fledged framework like Angular or React, but it provides a solid foundation for building modern web applications. The goal of Sonnet JS is to provide a simple and easy to use framework that allows you to build modern web applications without having to learn a lot of new concepts or technologies.",
+  "source": "@site/docs/getting-started/overview.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/overview",
+  "permalink": "/docs/getting-started/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/getting-started/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/category/getting-started"
+  },
+  "next": {
+    "title": "Qucik Start",
+    "permalink": "/docs/getting-started/quick-start"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "routing/history",
+  "title": "History",
+  "description": "The History class is used to manage the browser history in Sonnet JS. It provides a simple and easy-to-use API for interacting with the browser history, including navigating to different URLs, listening for changes to the history stack, and programmatically manipulating the history stack.",
+  "source": "@site/docs/routing/history.md",
+  "sourceDirName": "routing",
+  "slug": "/routing/history",
+  "permalink": "/docs/routing/history",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/routing/history.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/docs/routing/setup"
+  },
+  "next": {
+    "title": "Router",
+    "permalink": "/docs/routing/router"
+  }
+}

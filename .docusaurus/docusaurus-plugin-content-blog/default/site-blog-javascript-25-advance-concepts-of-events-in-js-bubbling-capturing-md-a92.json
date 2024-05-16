@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/advance-concepts-of-events-in-js-bubbling-capturing",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/25-advance-concepts-of-events-in-js-bubbling-capturing.md",
+  "source": "@site/blog/javascript/25-advance-concepts-of-events-in-js-bubbling-capturing.md",
+  "title": "Advance Concepts of Events in JS: Bubbling, Capturing",
+  "description": "Events in JavaScript are a fundamental part of building interactive web applications. They allow us to respond to user actions, such as clicking a button or scrolling the page. In addition to handling events, it is important to understand the concepts of event propagation: bubbling and capturing. In this article, we will dive into these concepts and learn how they can be used to handle events in more advanced ways.",
+  "date": "2024-05-15T13:15:30.900Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 5.275,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "advance-concepts-of-events-in-js-bubbling-capturing",
+    "title": "Advance Concepts of Events in JS: Bubbling, Capturing",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Handling Forms in JS",
+    "permalink": "/blog/handling-forms-in-js"
+  },
+  "nextItem": {
+    "title": "Browser Events in JS",
+    "permalink": "/blog/browser-events-in-js"
+  }
+}

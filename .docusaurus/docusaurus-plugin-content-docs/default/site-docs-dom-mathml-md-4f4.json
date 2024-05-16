@@ -1,0 +1,24 @@
+{
+  "id": "dom/mathml",
+  "title": "MathML",
+  "description": "MathML is a markup language for describing mathematical notation and capturing both its structure and content. It aims to be a universal format for representing mathematics on the web, and is supported by most modern web browsers. Sonnet MathML is a library that provides a set of utilities for working with MathML elements.",
+  "source": "@site/docs/dom/mathml.md",
+  "sourceDirName": "dom",
+  "slug": "/dom/mathml",
+  "permalink": "/docs/dom/mathml",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/dom/mathml.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Sonnet DOM",
+    "permalink": "/docs/category/sonnet-dom"
+  },
+  "next": {
+    "title": "SVG",
+    "permalink": "/docs/dom/svg"
+  }
+}

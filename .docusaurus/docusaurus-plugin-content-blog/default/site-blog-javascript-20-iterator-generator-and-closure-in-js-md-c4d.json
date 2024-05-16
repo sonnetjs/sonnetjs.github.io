@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/iterator-generator-and-closure-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/20-iterator-generator-and-closure-in-js.md",
+  "source": "@site/blog/javascript/20-iterator-generator-and-closure-in-js.md",
+  "title": "Iterator, Generator and Closure in JS",
+  "description": "JavaScript is a versatile language that supports several powerful features that make it easier to write efficient, reusable, and modular code. In this blog post, we’ll take a closer look at three such features — iterators, generators, and closures.",
+  "date": "2024-05-15T13:15:30.801Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 3.75,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "iterator-generator-and-closure-in-js",
+    "title": "Iterator, Generator and Closure in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Proxy in JS",
+    "permalink": "/blog/proxy-in-js"
+  },
+  "nextItem": {
+    "title": "Call Stack and Callback Queue in JS",
+    "permalink": "/blog/call-stack-and-callback-queue-in-js"
+  }
+}

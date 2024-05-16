@@ -1,0 +1,27 @@
+{
+  "id": "dom/index",
+  "title": "Sonnet DOM",
+  "description": "Sonnet DOM is a library that provides a set of utilities for working with the DOM in Sonnet JS. It provides a different way to work with the DOM compared to traditional DOM manipulation. You can use Sonnet DOM outside of Sonnet JS, but it is designed to work seamlessly with Sonnet JS. You can think it as a type-safe way to work with the DOM.",
+  "source": "@site/docs/dom/index.md",
+  "sourceDirName": "dom",
+  "slug": "/category/sonnet-dom",
+  "permalink": "/docs/category/sonnet-dom",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/dom/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/category/sonnet-dom",
+    "sidebar_class_name": "hidden"
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "HTML",
+    "permalink": "/docs/dom/html"
+  },
+  "next": {
+    "title": "MathML",
+    "permalink": "/docs/dom/mathml"
+  }
+}

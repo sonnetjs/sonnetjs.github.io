@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/datatypes-in-js-type-conversion",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/2-datatypes-in-js-type-conversion.md",
+  "source": "@site/blog/javascript/2-datatypes-in-js-type-conversion.md",
+  "title": "Datatypes in JS: Type Conversion",
+  "description": "JavaScript is a dynamically typed language, which means that the data type of a variable is determined at runtime.",
+  "date": "2024-05-15T13:15:30.508Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 2.895,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "datatypes-in-js-type-conversion",
+    "title": "Datatypes in JS: Type Conversion",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Commenting and Debugging in JS",
+    "permalink": "/blog/commenting-and-debugging-in-js"
+  },
+  "nextItem": {
+    "title": "Variables in JS: var, let, const",
+    "permalink": "/blog/variables-in-js-var-let-const"
+  }
+}

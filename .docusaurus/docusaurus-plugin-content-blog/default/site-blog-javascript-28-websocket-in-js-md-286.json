@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/websocket-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/28-websocket-in-js.md",
+  "source": "@site/blog/javascript/28-websocket-in-js.md",
+  "title": "WebSocket in JS",
+  "description": "WebSocket is a protocol that allows for real-time communication between client and server over a single, long-lived connection. Unlike HTTP, which uses a request-response model, WebSocket enables bi-directional communication between the client and server in real-time.",
+  "date": "2024-05-15T13:15:30.964Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 1.635,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "websocket-in-js",
+    "title": "WebSocket in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Browser Data Storage in JS",
+    "permalink": "/blog/browser-data-storage-in-js"
+  },
+  "nextItem": {
+    "title": "Working with APIs in JS",
+    "permalink": "/blog/working-with-apis-in-js"
+  }
+}

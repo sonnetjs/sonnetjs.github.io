@@ -1,0 +1,24 @@
+{
+  "id": "dom/html",
+  "title": "HTML",
+  "description": "Sonnet HTML is a library that provides a set of utilities for working with HTML elements.",
+  "source": "@site/docs/dom/html.md",
+  "sourceDirName": "dom",
+  "slug": "/dom/html",
+  "permalink": "/docs/dom/html",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/dom/html.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Sonnet DOM",
+    "permalink": "/docs/category/sonnet-dom"
+  },
+  "next": {
+    "title": "Sonnet DOM",
+    "permalink": "/docs/category/sonnet-dom"
+  }
+}

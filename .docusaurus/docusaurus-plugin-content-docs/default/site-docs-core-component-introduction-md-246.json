@@ -1,0 +1,27 @@
+{
+  "id": "core/component/introduction",
+  "title": "Introduction",
+  "description": "A component is a reusable piece of UI that can be composed with other components to create complex user interfaces. Components in Sonnet JS are created extending the SonnetComponent class, which provides a simple and intuitive API for building UI components.",
+  "source": "@site/docs/core/component/introduction.md",
+  "sourceDirName": "core/component",
+  "slug": "/core/component/introduction",
+  "permalink": "/docs/core/component/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/core/component/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Component",
+    "permalink": "/docs/category/component"
+  },
+  "next": {
+    "title": "Methods",
+    "permalink": "/docs/core/component/methods"
+  }
+}

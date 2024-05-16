@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/variables-in-js-var-let-const",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/1-variables-in-js-var-let-const.md",
+  "source": "@site/blog/javascript/1-variables-in-js-var-let-const.md",
+  "title": "Variables in JS: var, let, const",
+  "description": "JavaScript is a high-level programming language that is widely used for web development. One of the fundamental concepts in JavaScript is the use of variables. Variables are used to store data values that can be used throughout the code.",
+  "date": "2024-05-15T13:15:30.480Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 6.345,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "variables-in-js-var-let-const",
+    "title": "Variables in JS: var, let, const",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Datatypes in JS: Type Conversion",
+    "permalink": "/blog/datatypes-in-js-type-conversion"
+  },
+  "nextItem": {
+    "title": "Introduction to JavaScript",
+    "permalink": "/blog/introduction-to-js"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "core/component/methods",
+  "title": "Methods",
+  "description": "Methods are functions that are defined inside a class and are used to perform some action or computation. In Sonnet JS, methods are used to define the behavior of a component, such as handling interactivity, fetching data, or updating the UI.",
+  "source": "@site/docs/core/component/methods.md",
+  "sourceDirName": "core/component",
+  "slug": "/core/component/methods",
+  "permalink": "/docs/core/component/methods",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/core/component/methods.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/core/component/introduction"
+  },
+  "next": {
+    "title": "Props",
+    "permalink": "/docs/core/component/props"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/introduction-to-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/0-introduction-to-js.md",
+  "source": "@site/blog/javascript/0-introduction-to-js.md",
+  "title": "Introduction to JavaScript",
+  "description": "JavaScript is one of the most popular programming languages in the world, and for good reason. It is a powerful language that can be used to create dynamic and interactive web pages. In this blog post, we will take an overview of complete language",
+  "date": "2024-05-15T13:15:30.460Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 3.455,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "introduction-to-js",
+    "title": "Introduction to JavaScript",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Variables in JS: var, let, const",
+    "permalink": "/blog/variables-in-js-var-let-const"
+  }
+}

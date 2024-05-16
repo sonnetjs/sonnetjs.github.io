@@ -1,0 +1,27 @@
+{
+  "id": "routing/setup",
+  "title": "Setup",
+  "description": "Routing in one of the most important parts of any web application. It is the mechanism that allows you to map URLs to controllers and actions. This is a very important concept to understand because it is the foundation of how web applications work. Sonnet JS provides a very simple and easy to use routing system that allows you to define routes using a simple and easy to understand syntax.",
+  "source": "@site/docs/routing/setup.md",
+  "sourceDirName": "routing",
+  "slug": "/routing/setup",
+  "permalink": "/docs/routing/setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/routing/setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Routing",
+    "permalink": "/docs/category/routing"
+  },
+  "next": {
+    "title": "History",
+    "permalink": "/docs/routing/history"
+  }
+}

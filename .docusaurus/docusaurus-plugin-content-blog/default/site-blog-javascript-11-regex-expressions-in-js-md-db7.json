@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/regex-expressions-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/11-regex-expressions-in-js.md",
+  "source": "@site/blog/javascript/11-regex-expressions-in-js.md",
+  "title": "Regex Expressions in JS",
+  "description": "JavaScript is a programming language that supports regular expressions (regex). A regular expression is a sequence of characters that specifies a search pattern. With regex, we can search and manipulate text data in a more efficient and flexible way. In this document, we will explore how to use regular expressions in JavaScript.",
+  "date": "2024-05-15T13:15:30.641Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 5.01,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "regex-expressions-in-js",
+    "title": "Regex Expressions in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Protype in JS",
+    "permalink": "/blog/protype-in-js"
+  },
+  "nextItem": {
+    "title": "Object Methods in JS",
+    "permalink": "/blog/object-methods-in-js"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/object-methods-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/10-object-methods-in-js.md",
+  "source": "@site/blog/javascript/10-object-methods-in-js.md",
+  "title": "Object Methods in JS",
+  "description": "JavaScript functions are a powerful tool that can help you build complex and dynamic web applications. Whether you’re building a simple website or a large-scale web application, functions are essential for adding interactivity and functionality to your code.",
+  "date": "2024-05-15T13:15:30.632Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 5.39,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "object-methods-in-js",
+    "title": "Object Methods in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Regex Expressions in JS",
+    "permalink": "/blog/regex-expressions-in-js"
+  },
+  "nextItem": {
+    "title": "Object in JS",
+    "permalink": "/blog/object-in-js"
+  }
+}

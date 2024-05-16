@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/commenting-and-debugging-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/3-commenting-and-debugging-in-js.md",
+  "source": "@site/blog/javascript/3-commenting-and-debugging-in-js.md",
+  "title": "Commenting and Debugging in JS",
+  "description": "When it comes to programming in JavaScript, commenting and debugging are two important tasks that every developer should be familiar with.",
+  "date": "2024-05-15T13:15:30.532Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 5.345,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "commenting-and-debugging-in-js",
+    "title": "Commenting and Debugging in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Operators and Expressions in JS",
+    "permalink": "/blog/operators-and-expressions-in-js"
+  },
+  "nextItem": {
+    "title": "Datatypes in JS: Type Conversion",
+    "permalink": "/blog/datatypes-in-js-type-conversion"
+  }
+}

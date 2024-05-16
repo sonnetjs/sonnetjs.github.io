@@ -1,0 +1,27 @@
+{
+  "id": "core/component/lifecycle",
+  "title": "Lifecycle",
+  "description": "Sonnet JS components lifecycle is bit different from other frameworks. There are not typical lifecycle methods like componentDidMount, componentDidUpdate, etc. Instead, Sonnet JS handles all this stuff in a different way. In Sonnet JS, lifecycle is maintained at app level instead of component level. What it means is that component is rendered (mounted) only once (single page environment). As long as the page is not changed, the component will not be re-rendered. This is the reason why there is no need for lifecycle methods like componentDidMount, componentDidUpdate, etc.",
+  "source": "@site/docs/core/component/lifecycle.md",
+  "sourceDirName": "core/component",
+  "slug": "/core/component/lifecycle",
+  "permalink": "/docs/core/component/lifecycle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/core/component/lifecycle.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Props",
+    "permalink": "/docs/core/component/props"
+  },
+  "next": {
+    "title": "Application",
+    "permalink": "/docs/core/application"
+  }
+}

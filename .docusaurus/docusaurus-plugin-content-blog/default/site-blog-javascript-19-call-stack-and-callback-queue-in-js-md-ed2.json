@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/call-stack-and-callback-queue-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/19-call-stack-and-callback-queue-in-js.md",
+  "source": "@site/blog/javascript/19-call-stack-and-callback-queue-in-js.md",
+  "title": "Call Stack and Callback Queue in JS",
+  "description": "JavaScript is a single-threaded language, which means it can only perform one task at a time. However, it is capable of handling multiple tasks simultaneously using the concept of Call Stack. The Call Stack is a mechanism used by the JavaScript engine to keep track of function calls. When a function is called, it is added to the top of the Call Stack, and when it returns, it is removed from the stack.",
+  "date": "2024-05-15T13:15:30.781Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 3.86,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "call-stack-and-callback-queue-in-js",
+    "title": "Call Stack and Callback Queue in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Iterator, Generator and Closure in JS",
+    "permalink": "/blog/iterator-generator-and-closure-in-js"
+  },
+  "nextItem": {
+    "title": "Asynchronous Programming in JS",
+    "permalink": "/blog/asynchronous-programming-in-js"
+  }
+}

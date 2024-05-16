@@ -1,0 +1,24 @@
+{
+  "id": "dom/svg",
+  "title": "SVG",
+  "description": "Sonnet SVG is a library that provides a set of utilities for working with SVG elements. It makes it easy and intuitive to create SVG elements in a type-safe way.",
+  "source": "@site/docs/dom/svg.md",
+  "sourceDirName": "dom",
+  "slug": "/dom/svg",
+  "permalink": "/docs/dom/svg",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/dom/svg.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "MathML",
+    "permalink": "/docs/dom/mathml"
+  },
+  "next": {
+    "title": "Routing",
+    "permalink": "/docs/category/routing"
+  }
+}

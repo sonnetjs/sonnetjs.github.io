@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/protype-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/12-protype-in-js.md",
+  "source": "@site/blog/javascript/12-protype-in-js.md",
+  "title": "Protype in JS",
+  "description": "JavaScript is an object-oriented programming (OOP) language that uses prototypes instead of classes for creating objects. Prototypes are a fundamental concept in JavaScript and understanding them is essential in creating efficient and effective code.",
+  "date": "2024-05-15T13:15:30.649Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 4.325,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "protype-in-js",
+    "title": "Protype in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Function Binding in JS",
+    "permalink": "/blog/function-binding-in-js"
+  },
+  "nextItem": {
+    "title": "Regex Expressions in JS",
+    "permalink": "/blog/regex-expressions-in-js"
+  }
+}

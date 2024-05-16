@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/asynchronous-programming-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/18-asynchronous-programming-in-js.md",
+  "source": "@site/blog/javascript/18-asynchronous-programming-in-js.md",
+  "title": "Asynchronous Programming in JS",
+  "description": "Asynchronous programming is a way of writing non-blocking code in JavaScript. In traditional programming, code runs sequentially from top to bottom, which means that one line of code is executed at a time. However, when dealing with long-running tasks such as network requests or file I/O, synchronous programming can lead to unresponsive applications.",
+  "date": "2024-05-15T13:15:30.761Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 5.885,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "asynchronous-programming-in-js",
+    "title": "Asynchronous Programming in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Call Stack and Callback Queue in JS",
+    "permalink": "/blog/call-stack-and-callback-queue-in-js"
+  },
+  "nextItem": {
+    "title": "Scheduling in JS",
+    "permalink": "/blog/scheduling-in-js"
+  }
+}

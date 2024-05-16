@@ -1,0 +1,143 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "getting-started/overview",
+          "docs": [
+            {
+              "id": "core/application",
+              "path": "/docs/core/application",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "core/component/introduction",
+              "path": "/docs/core/component/introduction",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "core/component/lifecycle",
+              "path": "/docs/core/component/lifecycle",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "core/component/methods",
+              "path": "/docs/core/component/methods",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "core/component/props",
+              "path": "/docs/core/component/props",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "core/installation",
+              "path": "/docs/core/installation",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "core/plugin",
+              "path": "/docs/core/plugin",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "core/ssr",
+              "path": "/docs/core/ssr",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "dom/html",
+              "path": "/docs/dom/html",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "dom/index",
+              "path": "/docs/category/sonnet-dom",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "dom/mathml",
+              "path": "/docs/dom/mathml",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "dom/svg",
+              "path": "/docs/dom/svg",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "getting-started/overview",
+              "path": "/docs/getting-started/overview",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "getting-started/quick-start",
+              "path": "/docs/getting-started/quick-start",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "routing/Advanced",
+              "path": "/docs/routing/Advanced",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "routing/history",
+              "path": "/docs/routing/history",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "routing/router",
+              "path": "/docs/routing/router",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "routing/setup",
+              "path": "/docs/routing/setup",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "/category/getting-started",
+              "path": "/docs/category/getting-started",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "/category/core",
+              "path": "/docs/category/core",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "/category/component",
+              "path": "/docs/category/component",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "/category/sonnet-dom",
+              "path": "/docs/category/sonnet-dom",
+              "sidebar": "docSidebar"
+            },
+            {
+              "id": "/category/routing",
+              "path": "/docs/category/routing",
+              "sidebar": "docSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docSidebar": {
+              "link": {
+                "path": "/docs/category/getting-started",
+                "label": "Getting Started"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

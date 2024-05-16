@@ -1,0 +1,27 @@
+{
+  "id": "getting-started/quick-start",
+  "title": "Qucik Start",
+  "description": "Let's get started with Sonnet JS by creating a simple application. In this tutorial, we will create a new Sonnet JS project, create a new component, and render it in the browser.",
+  "source": "@site/docs/getting-started/quick-start.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quick-start",
+  "permalink": "/docs/getting-started/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/getting-started/quick-start.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/getting-started/overview"
+  },
+  "next": {
+    "title": "Core",
+    "permalink": "/docs/category/core"
+  }
+}

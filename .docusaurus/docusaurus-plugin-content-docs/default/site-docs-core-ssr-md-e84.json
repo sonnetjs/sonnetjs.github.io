@@ -1,0 +1,27 @@
+{
+  "id": "core/ssr",
+  "title": "SSR",
+  "description": "Server-side rendering (SSR) is a feature that allows you to render your application on the server and send the HTML to the client. This can be useful for SEO, faster initial page loads, and more. Sonnet JS utilizes vite core APIs to provide SSR support.",
+  "source": "@site/docs/core/ssr.md",
+  "sourceDirName": "core",
+  "slug": "/core/ssr",
+  "permalink": "/docs/core/ssr",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/core/ssr.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Application",
+    "permalink": "/docs/core/application"
+  },
+  "next": {
+    "title": "Plugin",
+    "permalink": "/docs/core/plugin"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/class-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/14-class-in-js.md",
+  "source": "@site/blog/javascript/14-class-in-js.md",
+  "title": "Class in JS",
+  "description": "Object-Oriented Programming (OOP) is a popular paradigm used in modern programming languages to organize code and data into reusable and modular components. JavaScript, although originally designed as a scripting language, has gained significant support for OOP. In this blog, we’ll discuss the principles of OOP in JavaScript and how to use them effectively.",
+  "date": "2024-05-15T13:15:30.695Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 7.005,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "class-in-js",
+    "title": "Class in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Advanced Datatypes in JS",
+    "permalink": "/blog/advanced-datatypes-in-js"
+  },
+  "nextItem": {
+    "title": "Function Binding in JS",
+    "permalink": "/blog/function-binding-in-js"
+  }
+}

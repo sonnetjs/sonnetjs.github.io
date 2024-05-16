@@ -1,0 +1,27 @@
+{
+  "id": "routing/router",
+  "title": "Router",
+  "description": "The Router class is used to manage the routing in Sonnet JS. It provides a simple and easy-to-use API for defining and managing routes in your application, including matching URLs to routes, rendering components based on the matched route, and navigating between routes. it provides createRouter() funcion to create instance of router class.",
+  "source": "@site/docs/routing/router.md",
+  "sourceDirName": "routing",
+  "slug": "/routing/router",
+  "permalink": "/docs/routing/router",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/routing/router.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "History",
+    "permalink": "/docs/routing/history"
+  },
+  "next": {
+    "title": "Advanced",
+    "permalink": "/docs/routing/Advanced"
+  }
+}

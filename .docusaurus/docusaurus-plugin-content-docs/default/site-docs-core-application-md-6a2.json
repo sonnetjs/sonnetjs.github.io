@@ -1,0 +1,27 @@
+{
+  "id": "core/application",
+  "title": "Application",
+  "description": "The application instance is the main entry point for a Sonnet JS application. It is created using the createApp function and is responsible for managing the lifecycle of the application. The application instance is used to mount components, handle events, and manage the state of the application.",
+  "source": "@site/docs/core/application.md",
+  "sourceDirName": "core",
+  "slug": "/core/application",
+  "permalink": "/docs/core/application",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/core/application.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Lifecycle",
+    "permalink": "/docs/core/component/lifecycle"
+  },
+  "next": {
+    "title": "SSR",
+    "permalink": "/docs/core/ssr"
+  }
+}

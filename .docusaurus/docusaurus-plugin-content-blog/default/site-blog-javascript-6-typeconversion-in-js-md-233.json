@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/typeconversion-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/6-typeconversion-in-js.md",
+  "source": "@site/blog/javascript/6-typeconversion-in-js.md",
+  "title": "TypeConversion in JS",
+  "description": "When we need to convert a value from one data type to another in JavaScript, we can perform either implicit or explicit type conversion. Implicit type conversion is performed automatically by JavaScript, while explicit type conversion is performed manually using built-in methods. Some examples of explicit type conversion are Boolean Conversion Boolean(), Number Conversion Number(), and String Conversion String().",
+  "date": "2024-05-15T13:15:30.572Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 4.06,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "typeconversion-in-js",
+    "title": "TypeConversion in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Functions in JS: named, anonymous",
+    "permalink": "/blog/functions-in-js-named-anonymous"
+  },
+  "nextItem": {
+    "title": "Control Flow Statements in JS",
+    "permalink": "/blog/control-flow-statements-in-js"
+  }
+}

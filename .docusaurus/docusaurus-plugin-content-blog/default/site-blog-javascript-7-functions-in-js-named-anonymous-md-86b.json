@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/functions-in-js-named-anonymous",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/7-functions-in-js-named-anonymous.md",
+  "source": "@site/blog/javascript/7-functions-in-js-named-anonymous.md",
+  "title": "Functions in JS: named, anonymous",
+  "description": "JavaScript is a programming language used mainly for creating interactive web pages. One of its most powerful features is the ability to create functions, which are reusable blocks of code that perform a specific task. In this blog post, we will discuss what functions are, how they work, and how to create and use them in JavaScript.",
+  "date": "2024-05-15T13:15:30.582Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 4.84,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "functions-in-js-named-anonymous",
+    "title": "Functions in JS: named, anonymous",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Array in JS",
+    "permalink": "/blog/array-in-js"
+  },
+  "nextItem": {
+    "title": "TypeConversion in JS",
+    "permalink": "/blog/typeconversion-in-js"
+  }
+}

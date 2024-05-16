@@ -1,0 +1,27 @@
+{
+  "id": "core/installation",
+  "title": "Installation",
+  "description": "Requirements",
+  "source": "@site/docs/core/installation.md",
+  "sourceDirName": "core",
+  "slug": "/core/installation",
+  "permalink": "/docs/core/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/core/installation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Core",
+    "permalink": "/docs/category/core"
+  },
+  "next": {
+    "title": "Component",
+    "permalink": "/docs/category/component"
+  }
+}

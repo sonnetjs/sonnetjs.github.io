@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/working-with-apis-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/27-working-with-apis-in-js.md",
+  "source": "@site/blog/javascript/27-working-with-apis-in-js.md",
+  "title": "Working with APIs in JS",
+  "description": "Working with APIs in JavaScript involves making requests to an external server to retrieve or send data. In this blog post, we will discuss the basics of working with APIs in JavaScript, including how to make API requests using different methods and handling responses.",
+  "date": "2024-05-15T13:15:30.944Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 5.025,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "working-with-apis-in-js",
+    "title": "Working with APIs in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "WebSocket in JS",
+    "permalink": "/blog/websocket-in-js"
+  },
+  "nextItem": {
+    "title": "Handling Forms in JS",
+    "permalink": "/blog/handling-forms-in-js"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "permalink": "/blog/array-in-js",
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/blog/javascript/8-array-in-js.md",
+  "source": "@site/blog/javascript/8-array-in-js.md",
+  "title": "Array in JS",
+  "description": "JavaScript is an incredibly popular programming language and one of the reasons it is so popular is because of the versatility of arrays in JavaScript. Arrays in JavaScript are used to store multiple values in a single variable.",
+  "date": "2024-05-15T13:15:30.599Z",
+  "tags": [
+    {
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    }
+  ],
+  "readingTime": 5.005,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "array-in-js",
+    "title": "Array in JS",
+    "authors": {
+      "name": "Talha Mujahid",
+      "title": "Software Engineer",
+      "url": "https://github.com/htmujahid",
+      "image_url": "https://avatars.githubusercontent.com/u/58030954?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/58030954?v=4"
+    },
+    "tags": [
+      "javascript"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Object in JS",
+    "permalink": "/blog/object-in-js"
+  },
+  "nextItem": {
+    "title": "Functions in JS: named, anonymous",
+    "permalink": "/blog/functions-in-js-named-anonymous"
+  }
+}

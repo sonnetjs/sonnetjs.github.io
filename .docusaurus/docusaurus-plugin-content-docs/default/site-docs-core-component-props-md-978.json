@@ -1,0 +1,27 @@
+{
+  "id": "core/component/props",
+  "title": "Props",
+  "description": "Props are used to pass data from a parent component to a child component. In Sonnet JS, there are multiple ways to pass props to a component.",
+  "source": "@site/docs/core/component/props.md",
+  "sourceDirName": "core/component",
+  "slug": "/core/component/props",
+  "permalink": "/docs/core/component/props",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sonnetjs/sonnetjs.github.io/tree/main/docs/core/component/props.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docSidebar",
+  "previous": {
+    "title": "Methods",
+    "permalink": "/docs/core/component/methods"
+  },
+  "next": {
+    "title": "Lifecycle",
+    "permalink": "/docs/core/component/lifecycle"
+  }
+}
