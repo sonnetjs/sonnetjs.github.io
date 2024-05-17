@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Qucik Start
+# Quick Start
 
 Let's get started with Sonnet JS by creating a simple application. In this tutorial, we will create a new Sonnet JS project, create a new component, and render it in the browser.
 
