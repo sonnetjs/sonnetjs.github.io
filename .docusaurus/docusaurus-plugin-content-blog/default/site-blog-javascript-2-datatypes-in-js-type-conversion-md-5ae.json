@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/2-datatypes-in-js-type-conversion.md",
   "title": "Datatypes in JS: Type Conversion",
   "description": "JavaScript is a dynamically typed language, which means that the data type of a variable is determined at runtime.",
-  "date": "2024-05-15T13:15:30.508Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Commenting and Debugging in JS",
-    "permalink": "/blog/commenting-and-debugging-in-js"
+    "title": "Call Stack and Callback Queue in JS",
+    "permalink": "/blog/call-stack-and-callback-queue-in-js"
   },
   "nextItem": {
-    "title": "Variables in JS: var, let, const",
-    "permalink": "/blog/variables-in-js-var-let-const"
+    "title": "Iterator, Generator and Closure in JS",
+    "permalink": "/blog/iterator-generator-and-closure-in-js"
   }
 }

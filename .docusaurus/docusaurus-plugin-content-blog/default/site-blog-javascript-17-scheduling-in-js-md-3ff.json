@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/17-scheduling-in-js.md",
   "title": "Scheduling in JS",
   "description": "JavaScript is a programming language that is widely used for building web applications. One of the important features of JavaScript is scheduling, which allows developers to execute code at a specific time or after a certain interval.",
-  "date": "2024-05-15T13:15:30.742Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Asynchronous Programming in JS",
-    "permalink": "/blog/asynchronous-programming-in-js"
-  },
-  "nextItem": {
     "title": "Error Handling in JS",
     "permalink": "/blog/error-handling-in-js"
+  },
+  "nextItem": {
+    "title": "Asynchronous Programming in JS",
+    "permalink": "/blog/asynchronous-programming-in-js"
   }
 }

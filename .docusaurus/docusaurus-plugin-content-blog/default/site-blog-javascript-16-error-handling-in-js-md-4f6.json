@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/16-error-handling-in-js.md",
   "title": "Error Handling in JS",
   "description": "JavaScript is a programming language that is widely used for creating dynamic and interactive web pages. Like other programming languages, it is important to handle errors that may occur during the execution of JavaScript code.",
-  "date": "2024-05-15T13:15:30.724Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Scheduling in JS",
-    "permalink": "/blog/scheduling-in-js"
-  },
-  "nextItem": {
     "title": "Advanced Datatypes in JS",
     "permalink": "/blog/advanced-datatypes-in-js"
+  },
+  "nextItem": {
+    "title": "Scheduling in JS",
+    "permalink": "/blog/scheduling-in-js"
   }
 }

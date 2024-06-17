@@ -2,28 +2,28 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Browser Data Storage in JS",
-      "permalink": "/blog/browser-data-storage-in-js",
+      "title": "Introduction to JavaScript",
+      "permalink": "/blog/introduction-to-js",
       "unlisted": false
     },
     {
-      "title": "WebSocket in JS",
-      "permalink": "/blog/websocket-in-js",
+      "title": "Variables in JS: var, let, const",
+      "permalink": "/blog/variables-in-js-var-let-const",
       "unlisted": false
     },
     {
-      "title": "Working with APIs in JS",
-      "permalink": "/blog/working-with-apis-in-js",
+      "title": "Object Methods in JS",
+      "permalink": "/blog/object-methods-in-js",
       "unlisted": false
     },
     {
-      "title": "Handling Forms in JS",
-      "permalink": "/blog/handling-forms-in-js",
+      "title": "Regex Expressions in JS",
+      "permalink": "/blog/regex-expressions-in-js",
       "unlisted": false
     },
     {
-      "title": "Advance Concepts of Events in JS: Bubbling, Capturing",
-      "permalink": "/blog/advance-concepts-of-events-in-js-bubbling-capturing",
+      "title": "Protype in JS",
+      "permalink": "/blog/protype-in-js",
       "unlisted": false
     }
   ]

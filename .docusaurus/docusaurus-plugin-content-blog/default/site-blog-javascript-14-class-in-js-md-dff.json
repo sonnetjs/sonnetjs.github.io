@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/14-class-in-js.md",
   "title": "Class in JS",
   "description": "Object-Oriented Programming (OOP) is a popular paradigm used in modern programming languages to organize code and data into reusable and modular components. JavaScript, although originally designed as a scripting language, has gained significant support for OOP. In this blog, we’ll discuss the principles of OOP in JavaScript and how to use them effectively.",
-  "date": "2024-05-15T13:15:30.695Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Advanced Datatypes in JS",
-    "permalink": "/blog/advanced-datatypes-in-js"
-  },
-  "nextItem": {
     "title": "Function Binding in JS",
     "permalink": "/blog/function-binding-in-js"
+  },
+  "nextItem": {
+    "title": "Advanced Datatypes in JS",
+    "permalink": "/blog/advanced-datatypes-in-js"
   }
 }

@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/3-commenting-and-debugging-in-js.md",
   "title": "Commenting and Debugging in JS",
   "description": "When it comes to programming in JavaScript, commenting and debugging are two important tasks that every developer should be familiar with.",
-  "date": "2024-05-15T13:15:30.532Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Operators and Expressions in JS",
-    "permalink": "/blog/operators-and-expressions-in-js"
+    "title": "Browser Data Storage in JS",
+    "permalink": "/blog/browser-data-storage-in-js"
   },
   "nextItem": {
-    "title": "Datatypes in JS: Type Conversion",
-    "permalink": "/blog/datatypes-in-js-type-conversion"
+    "title": "Operators and Expressions in JS",
+    "permalink": "/blog/operators-and-expressions-in-js"
   }
 }

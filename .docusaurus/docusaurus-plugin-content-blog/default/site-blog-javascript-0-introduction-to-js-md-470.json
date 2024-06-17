@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/0-introduction-to-js.md",
   "title": "Introduction to JavaScript",
   "description": "JavaScript is one of the most popular programming languages in the world, and for good reason. It is a powerful language that can be used to create dynamic and interactive web pages. In this blog post, we will take an overview of complete language",
-  "date": "2024-05-15T13:15:30.460Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -37,7 +37,7 @@
     ]
   },
   "unlisted": false,
-  "prevItem": {
+  "nextItem": {
     "title": "Variables in JS: var, let, const",
     "permalink": "/blog/variables-in-js-var-let-const"
   }

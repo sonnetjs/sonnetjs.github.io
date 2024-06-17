@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/11-regex-expressions-in-js.md",
   "title": "Regex Expressions in JS",
   "description": "JavaScript is a programming language that supports regular expressions (regex). A regular expression is a sequence of characters that specifies a search pattern. With regex, we can search and manipulate text data in a more efficient and flexible way. In this document, we will explore how to use regular expressions in JavaScript.",
-  "date": "2024-05-15T13:15:30.641Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Protype in JS",
-    "permalink": "/blog/protype-in-js"
-  },
-  "nextItem": {
     "title": "Object Methods in JS",
     "permalink": "/blog/object-methods-in-js"
+  },
+  "nextItem": {
+    "title": "Protype in JS",
+    "permalink": "/blog/protype-in-js"
   }
 }

@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/25-advance-concepts-of-events-in-js-bubbling-capturing.md",
   "title": "Advance Concepts of Events in JS: Bubbling, Capturing",
   "description": "Events in JavaScript are a fundamental part of building interactive web applications. They allow us to respond to user actions, such as clicking a button or scrolling the page. In addition to handling events, it is important to understand the concepts of event propagation: bubbling and capturing. In this article, we will dive into these concepts and learn how they can be used to handle events in more advanced ways.",
-  "date": "2024-05-15T13:15:30.900Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Handling Forms in JS",
-    "permalink": "/blog/handling-forms-in-js"
-  },
-  "nextItem": {
     "title": "Browser Events in JS",
     "permalink": "/blog/browser-events-in-js"
+  },
+  "nextItem": {
+    "title": "Handling Forms in JS",
+    "permalink": "/blog/handling-forms-in-js"
   }
 }

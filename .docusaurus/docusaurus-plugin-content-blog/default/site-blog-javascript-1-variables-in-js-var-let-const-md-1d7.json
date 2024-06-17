@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/1-variables-in-js-var-let-const.md",
   "title": "Variables in JS: var, let, const",
   "description": "JavaScript is a high-level programming language that is widely used for web development. One of the fundamental concepts in JavaScript is the use of variables. Variables are used to store data values that can be used throughout the code.",
-  "date": "2024-05-15T13:15:30.480Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Datatypes in JS: Type Conversion",
-    "permalink": "/blog/datatypes-in-js-type-conversion"
-  },
-  "nextItem": {
     "title": "Introduction to JavaScript",
     "permalink": "/blog/introduction-to-js"
+  },
+  "nextItem": {
+    "title": "Object Methods in JS",
+    "permalink": "/blog/object-methods-in-js"
   }
 }

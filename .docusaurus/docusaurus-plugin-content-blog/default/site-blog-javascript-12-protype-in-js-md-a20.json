@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/12-protype-in-js.md",
   "title": "Protype in JS",
   "description": "JavaScript is an object-oriented programming (OOP) language that uses prototypes instead of classes for creating objects. Prototypes are a fundamental concept in JavaScript and understanding them is essential in creating efficient and effective code.",
-  "date": "2024-05-15T13:15:30.649Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Function Binding in JS",
-    "permalink": "/blog/function-binding-in-js"
-  },
-  "nextItem": {
     "title": "Regex Expressions in JS",
     "permalink": "/blog/regex-expressions-in-js"
+  },
+  "nextItem": {
+    "title": "Function Binding in JS",
+    "permalink": "/blog/function-binding-in-js"
   }
 }

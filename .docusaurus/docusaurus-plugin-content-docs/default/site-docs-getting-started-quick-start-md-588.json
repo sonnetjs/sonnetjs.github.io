@@ -1,6 +1,6 @@
 {
   "id": "getting-started/quick-start",
-  "title": "Qucik Start",
+  "title": "Quick Start",
   "description": "Let's get started with Sonnet JS by creating a simple application. In this tutorial, we will create a new Sonnet JS project, create a new component, and render it in the browser.",
   "source": "@site/docs/getting-started/quick-start.md",
   "sourceDirName": "getting-started",

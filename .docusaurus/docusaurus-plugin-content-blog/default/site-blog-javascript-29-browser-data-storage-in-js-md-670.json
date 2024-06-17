@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/29-browser-data-storage-in-js.md",
   "title": "Browser Data Storage in JS",
   "description": "JavaScript provides various options for storing data in the browser. These storage options are used to store data temporarily or permanently. In this article, we will explore different ways of storing data in the browser using JavaScript.",
-  "date": "2024-05-15T13:15:30.998Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -37,8 +37,12 @@
     ]
   },
   "unlisted": false,
-  "nextItem": {
+  "prevItem": {
     "title": "WebSocket in JS",
     "permalink": "/blog/websocket-in-js"
+  },
+  "nextItem": {
+    "title": "Commenting and Debugging in JS",
+    "permalink": "/blog/commenting-and-debugging-in-js"
   }
 }

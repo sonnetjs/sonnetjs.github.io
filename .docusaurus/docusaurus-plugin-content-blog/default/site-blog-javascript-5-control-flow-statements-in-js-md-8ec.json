@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/5-control-flow-statements-in-js.md",
   "title": "Control Flow Statements in JS",
   "description": "JavaScript is a programming language that allows developers to build complex web applications. Control flow statements are one of the most important features in JavaScript.",
-  "date": "2024-05-15T13:15:30.556Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "TypeConversion in JS",
-    "permalink": "/blog/typeconversion-in-js"
-  },
-  "nextItem": {
     "title": "Operators and Expressions in JS",
     "permalink": "/blog/operators-and-expressions-in-js"
+  },
+  "nextItem": {
+    "title": "TypeConversion in JS",
+    "permalink": "/blog/typeconversion-in-js"
   }
 }

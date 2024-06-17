@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/21-proxy-in-js.md",
   "title": "Proxy in JS",
   "description": "JavaScript Proxy is a powerful feature that was introduced in ECMAScript 6 (ES6) that allows us to intercept and customize operations performed on objects. It allows us to define custom behavior for fundamental operations like object property access, assignment, and deletion. In this blog post, we’ll dive deeper into the concept of proxies in JavaScript.",
-  "date": "2024-05-15T13:15:30.822Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Module in JS: Import, Export",
-    "permalink": "/blog/module-in-js-import-export"
-  },
-  "nextItem": {
     "title": "Iterator, Generator and Closure in JS",
     "permalink": "/blog/iterator-generator-and-closure-in-js"
+  },
+  "nextItem": {
+    "title": "Module in JS: Import, Export",
+    "permalink": "/blog/module-in-js-import-export"
   }
 }

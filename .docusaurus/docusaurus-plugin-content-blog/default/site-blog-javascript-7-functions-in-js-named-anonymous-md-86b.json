@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/7-functions-in-js-named-anonymous.md",
   "title": "Functions in JS: named, anonymous",
   "description": "JavaScript is a programming language used mainly for creating interactive web pages. One of its most powerful features is the ability to create functions, which are reusable blocks of code that perform a specific task. In this blog post, we will discuss what functions are, how they work, and how to create and use them in JavaScript.",
-  "date": "2024-05-15T13:15:30.582Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Array in JS",
-    "permalink": "/blog/array-in-js"
-  },
-  "nextItem": {
     "title": "TypeConversion in JS",
     "permalink": "/blog/typeconversion-in-js"
+  },
+  "nextItem": {
+    "title": "Array in JS",
+    "permalink": "/blog/array-in-js"
   }
 }

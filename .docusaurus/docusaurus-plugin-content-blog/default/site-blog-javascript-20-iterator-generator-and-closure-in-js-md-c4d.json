@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/20-iterator-generator-and-closure-in-js.md",
   "title": "Iterator, Generator and Closure in JS",
   "description": "JavaScript is a versatile language that supports several powerful features that make it easier to write efficient, reusable, and modular code. In this blog post, we’ll take a closer look at three such features — iterators, generators, and closures.",
-  "date": "2024-05-15T13:15:30.801Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Proxy in JS",
-    "permalink": "/blog/proxy-in-js"
+    "title": "Datatypes in JS: Type Conversion",
+    "permalink": "/blog/datatypes-in-js-type-conversion"
   },
   "nextItem": {
-    "title": "Call Stack and Callback Queue in JS",
-    "permalink": "/blog/call-stack-and-callback-queue-in-js"
+    "title": "Proxy in JS",
+    "permalink": "/blog/proxy-in-js"
   }
 }

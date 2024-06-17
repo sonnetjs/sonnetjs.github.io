@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/28-websocket-in-js.md",
   "title": "WebSocket in JS",
   "description": "WebSocket is a protocol that allows for real-time communication between client and server over a single, long-lived connection. Unlike HTTP, which uses a request-response model, WebSocket enables bi-directional communication between the client and server in real-time.",
-  "date": "2024-05-15T13:15:30.964Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Browser Data Storage in JS",
-    "permalink": "/blog/browser-data-storage-in-js"
-  },
-  "nextItem": {
     "title": "Working with APIs in JS",
     "permalink": "/blog/working-with-apis-in-js"
+  },
+  "nextItem": {
+    "title": "Browser Data Storage in JS",
+    "permalink": "/blog/browser-data-storage-in-js"
   }
 }

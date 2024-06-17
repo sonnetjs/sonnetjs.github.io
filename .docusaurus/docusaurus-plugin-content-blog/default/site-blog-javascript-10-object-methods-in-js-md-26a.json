@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/10-object-methods-in-js.md",
   "title": "Object Methods in JS",
   "description": "JavaScript functions are a powerful tool that can help you build complex and dynamic web applications. Whether you’re building a simple website or a large-scale web application, functions are essential for adding interactivity and functionality to your code.",
-  "date": "2024-05-15T13:15:30.632Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Regex Expressions in JS",
-    "permalink": "/blog/regex-expressions-in-js"
+    "title": "Variables in JS: var, let, const",
+    "permalink": "/blog/variables-in-js-var-let-const"
   },
   "nextItem": {
-    "title": "Object in JS",
-    "permalink": "/blog/object-in-js"
+    "title": "Regex Expressions in JS",
+    "permalink": "/blog/regex-expressions-in-js"
   }
 }

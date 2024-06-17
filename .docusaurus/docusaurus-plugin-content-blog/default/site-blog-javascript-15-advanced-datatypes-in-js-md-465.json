@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/15-advanced-datatypes-in-js.md",
   "title": "Advanced Datatypes in JS",
   "description": "JavaScript is an object-oriented programming language that has been around for quite some time now. It allows developers to create complex applications with ease. While working with JavaScript, developers often come across data types that are not commonly found in other programming languages. In this blog post, we will explore some of the advanced data types in JavaScript, including Map, Set, and Date.",
-  "date": "2024-05-15T13:15:30.712Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Error Handling in JS",
-    "permalink": "/blog/error-handling-in-js"
-  },
-  "nextItem": {
     "title": "Class in JS",
     "permalink": "/blog/class-in-js"
+  },
+  "nextItem": {
+    "title": "Error Handling in JS",
+    "permalink": "/blog/error-handling-in-js"
   }
 }

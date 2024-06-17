@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/18-asynchronous-programming-in-js.md",
   "title": "Asynchronous Programming in JS",
   "description": "Asynchronous programming is a way of writing non-blocking code in JavaScript. In traditional programming, code runs sequentially from top to bottom, which means that one line of code is executed at a time. However, when dealing with long-running tasks such as network requests or file I/O, synchronous programming can lead to unresponsive applications.",
-  "date": "2024-05-15T13:15:30.761Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Call Stack and Callback Queue in JS",
-    "permalink": "/blog/call-stack-and-callback-queue-in-js"
-  },
-  "nextItem": {
     "title": "Scheduling in JS",
     "permalink": "/blog/scheduling-in-js"
+  },
+  "nextItem": {
+    "title": "Call Stack and Callback Queue in JS",
+    "permalink": "/blog/call-stack-and-callback-queue-in-js"
   }
 }

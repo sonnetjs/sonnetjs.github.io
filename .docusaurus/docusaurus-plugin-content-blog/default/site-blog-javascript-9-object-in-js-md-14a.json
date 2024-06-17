@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/9-object-in-js.md",
   "title": "Object in JS",
   "description": "In JavaScript, an object is a collection of key-value pairs, where the keys are strings (or symbols) and the values can be of any type. It is an unordered data structure that can hold primitive data types, arrays, and even functions. Objects are used to represent real-world entities, and they provide a way to organize and store related data.",
-  "date": "2024-05-15T13:15:30.615Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,10 +38,6 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Object Methods in JS",
-    "permalink": "/blog/object-methods-in-js"
-  },
-  "nextItem": {
     "title": "Array in JS",
     "permalink": "/blog/array-in-js"
   }

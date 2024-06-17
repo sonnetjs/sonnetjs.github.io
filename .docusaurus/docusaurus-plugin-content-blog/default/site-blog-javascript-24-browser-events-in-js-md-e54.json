@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/24-browser-events-in-js.md",
   "title": "Browser Events in JS",
   "description": "In JavaScript, events are actions or occurrences that happen in the browser, such as a user clicking on a button or a page finishing loading. JavaScript can listen to these events and execute code in response.",
-  "date": "2024-05-15T13:15:30.878Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Advance Concepts of Events in JS: Bubbling, Capturing",
-    "permalink": "/blog/advance-concepts-of-events-in-js-bubbling-capturing"
-  },
-  "nextItem": {
     "title": "Browser Environment in JS",
     "permalink": "/blog/browser-environment-in-js"
+  },
+  "nextItem": {
+    "title": "Advance Concepts of Events in JS: Bubbling, Capturing",
+    "permalink": "/blog/advance-concepts-of-events-in-js-bubbling-capturing"
   }
 }

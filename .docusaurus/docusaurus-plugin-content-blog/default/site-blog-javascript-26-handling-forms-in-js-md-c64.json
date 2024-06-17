@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/26-handling-forms-in-js.md",
   "title": "Handling Forms in JS",
   "description": "Handling forms is an essential task in web development, and JavaScript provides a powerful and flexible way to handle forms. In this article, we’ll discuss how to handle forms in JavaScript.",
-  "date": "2024-05-15T13:15:30.924Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Working with APIs in JS",
-    "permalink": "/blog/working-with-apis-in-js"
-  },
-  "nextItem": {
     "title": "Advance Concepts of Events in JS: Bubbling, Capturing",
     "permalink": "/blog/advance-concepts-of-events-in-js-bubbling-capturing"
+  },
+  "nextItem": {
+    "title": "Working with APIs in JS",
+    "permalink": "/blog/working-with-apis-in-js"
   }
 }

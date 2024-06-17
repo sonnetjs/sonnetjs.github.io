@@ -4,7 +4,7 @@
   "source": "@site/blog/javascript/22-module-in-js-import-export.md",
   "title": "Module in JS: Import, Export",
   "description": "JavaScript modules are a way of organizing code into reusable, self-contained components that can be easily imported and exported between different parts of an application. They provide a mechanism for encapsulating code and avoiding naming collisions, making it easier to build and maintain large-scale applications. In this blog post, we’ll dive deeper into the concept of modules in JavaScript.",
-  "date": "2024-05-15T13:15:30.841Z",
+  "date": "2024-05-16T10:39:22.000Z",
   "tags": [
     {
       "label": "javascript",
@@ -38,11 +38,11 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Browser Environment in JS",
-    "permalink": "/blog/browser-environment-in-js"
-  },
-  "nextItem": {
     "title": "Proxy in JS",
     "permalink": "/blog/proxy-in-js"
+  },
+  "nextItem": {
+    "title": "Browser Environment in JS",
+    "permalink": "/blog/browser-environment-in-js"
   }
 }
