@@ -33,6 +33,7 @@
     "@docusaurus/module-type-aliases": "3.3.2",
     "@docusaurus/tsconfig": "3.3.2",
     "@docusaurus/types": "3.3.2",
+    "@tailwindcss/typography": "^0.5.13",
     "autoprefixer": "^10.4.19",
     "framer-motion": "^11.2.10",
     "postcss": "^8.4.38",
