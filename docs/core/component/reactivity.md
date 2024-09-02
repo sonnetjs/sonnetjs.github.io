@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Reactivity
 
-When you are working with vanilla JavaScript, you don't need to have any special mechanism to update the UI when the data changes. You can simply update the data and the UI will be updated automatically. But in some cases, it becomes too complex to manage the data and the UI manually. This is where reactivity comes into play.
+When you are working with vanilla JavaScript, you don't need to have any special mechanism to update the UI when the data changes. You can manually maniuplate the dom to update data. But in some cases, it becomes too complex to manage the data and the UI manually. This is where reactivity comes into play.
 
 Reactivity is a programming paradigm that allows you to create reactive data models that automatically update the UI when the data changes. In Sonnet JS, reactivity is in developer control. You can re-render the component whenever you want by calling the `rerender` method.
 
