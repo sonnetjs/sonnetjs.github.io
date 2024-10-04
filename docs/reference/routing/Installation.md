@@ -37,13 +37,15 @@ const history = createBrowserHistory();
 This is the plugin of routing in Sonnet JS. You can create a new instance of the Router class by calling the `createRouter()` function.
 
 ```javascript
-const router = createRouter().history(history).routes([
-  router().path('/').component(Home).get(),
-  router().path('/about').component(About).get(),
-  router().path('/contact').component(Contact).get(),
-]);
+const routers = createRouter().history(history).routes(
+  router().children([
+    router().path('/').component(Home).get(),
+    router().path('/about').component(About).get(),
+    router().path('/contact').component(Contact).get(),
+  ]).get()
+)
 
-const app = createApp(App).use(router).mount('#app');
+const app = createApp(App).use(routers).mount('#app');
 ```
 
 Let's explore each of these elements in more detail in next sections.
