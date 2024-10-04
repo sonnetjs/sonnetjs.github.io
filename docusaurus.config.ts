@@ -17,6 +17,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'sonnetjs', // Usually your GitHub org/user name.
   projectName: 'sonnet', // Usually your repo name.
+  deploymentBranch: 'main', // The branch your GitHub pages site is deployed from.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,6 +40,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/sonnetjs/sonnetjs.github.io/tree/main',
+          // routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
@@ -66,27 +68,44 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'docSidebar',
           position: 'left',
-          label: 'Docs',
+          sidebarId: 'tutorialSidebar',
+          label: 'Tutorial',
+        },
+        {
+          type: 'docSidebar',
+          position: 'left',
+          sidebarId: 'referenceSidebar',
+          label: 'Reference',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/sonnetjs/sonnet',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
         },
       ],
+    },
+    announcementBar: {
+      content:
+        '⭐️ If you like SonnetJS, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/sonnetjs/sonnet">GitHub</a>! ⭐️',
     },
     docs: {
       sidebar: {
         hideable: true,
+        autoCollapseCategories: true
       },
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    themes: ['@docusaurus/theme-classic'],
   } satisfies Preset.ThemeConfig,
 };
 

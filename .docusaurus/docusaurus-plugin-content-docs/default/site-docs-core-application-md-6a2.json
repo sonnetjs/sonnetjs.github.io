@@ -17,8 +17,8 @@
   },
   "sidebar": "docSidebar",
   "previous": {
-    "title": "Lifecycle",
-    "permalink": "/docs/core/component/lifecycle"
+    "title": "Reactivity",
+    "permalink": "/docs/core/component/reactivity"
   },
   "next": {
     "title": "SSR",

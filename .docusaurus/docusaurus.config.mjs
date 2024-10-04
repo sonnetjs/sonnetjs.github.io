@@ -11,6 +11,7 @@ export default {
   "baseUrl": "/",
   "organizationName": "sonnetjs",
   "projectName": "sonnet",
+  "deploymentBranch": "main",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -46,9 +47,15 @@ export default {
       "items": [
         {
           "type": "docSidebar",
-          "sidebarId": "docSidebar",
           "position": "left",
-          "label": "Docs"
+          "sidebarId": "tutorialSidebar",
+          "label": "Tutorial"
+        },
+        {
+          "type": "docSidebar",
+          "position": "left",
+          "sidebarId": "referenceSidebar",
+          "label": "Reference"
         },
         {
           "to": "/blog",
@@ -57,18 +64,28 @@ export default {
         },
         {
           "href": "https://github.com/sonnetjs/sonnet",
-          "label": "GitHub",
-          "position": "right"
+          "position": "right",
+          "className": "header-github-link"
         }
       ],
       "hideOnScroll": false
     },
+    "announcementBar": {
+      "content": "⭐️ If you like SonnetJS, give it a star on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/sonnetjs/sonnet\">GitHub</a>! ⭐️",
+      "id": "announcement-bar",
+      "isCloseable": true
+    },
     "docs": {
       "sidebar": {
         "hideable": true,
-        "autoCollapseCategories": false
+        "autoCollapseCategories": true
       },
       "versionPersistence": "localStorage"
+    },
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": true
     },
     "prism": {
       "theme": {
@@ -274,11 +291,9 @@ export default {
         }
       ]
     },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
-    },
+    "themes": [
+      "@docusaurus/theme-classic"
+    ],
     "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,

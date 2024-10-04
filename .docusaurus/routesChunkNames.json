@@ -634,110 +634,122 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-950": {
+  "/docs-d8c": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-db3": {
+  "/docs-dee": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-7-c-1-f86"
   },
-  "/docs-d1a": {
+  "/docs-548": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/category/component-5d7": {
+  "/docs/category/component-6c9": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-component-66-b-7b0"
   },
-  "/docs/category/core-b5b": {
+  "/docs/category/core-bfe": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-corecf-6-b2d"
   },
-  "/docs/category/getting-started-d57": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-getting-started-382-487"
-  },
-  "/docs/category/routing-ef3": {
+  "/docs/category/routing-269": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-routingc-98-916"
   },
-  "/docs/category/sonnet-dom-def": {
+  "/docs/category/sonnet-dom-227": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-category-sonnet-dom-274-478"
+    "content": "content---docs-category-sonnet-domf-4-d-181"
   },
-  "/docs/category/sonnet-dom-b69": {
+  "/docs/category/sonnet-dom-182": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-sonnet-domefb-aef"
   },
-  "/docs/core/application-7e1": {
+  "/docs/reference/cli-94e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-application-6-a-2-eb4"
+    "content": "content---docs-reference-cli-91-c-73a"
   },
-  "/docs/core/component/introduction-5d9": {
+  "/docs/reference/core/-34f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-component-introduction-246-92f"
+    "content": "content---docs-reference-core-e-3-a-47d"
   },
-  "/docs/core/component/lifecycle-1a5": {
+  "/docs/reference/core/application-237": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-component-lifecycle-0-bd-7d9"
+    "content": "content---docs-reference-core-applicationa-23-8d7"
   },
-  "/docs/core/component/methods-e26": {
+  "/docs/reference/core/component/introduction-4c3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-component-methodsed-7-7dc"
+    "content": "content---docs-reference-core-component-introduction-672-407"
   },
-  "/docs/core/component/props-81c": {
+  "/docs/reference/core/component/lifecycle-90b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-component-props-978-4ef"
+    "content": "content---docs-reference-core-component-lifecycle-214-8c9"
   },
-  "/docs/core/installation-fb5": {
+  "/docs/reference/core/component/methods-2ca": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-installationbd-0-793"
+    "content": "content---docs-reference-core-component-methods-8-fa-78a"
   },
-  "/docs/core/plugin-d45": {
+  "/docs/reference/core/component/props-a5f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-plugin-2-e-9-59d"
+    "content": "content---docs-reference-core-component-props-277-ce0"
   },
-  "/docs/core/ssr-71f": {
+  "/docs/reference/core/component/reactivity-ff7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-core-ssre-84-119"
+    "content": "content---docs-reference-core-component-reactivityd-65-2df"
   },
-  "/docs/dom/html-a93": {
+  "/docs/reference/core/plugin-472": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-dom-html-8-c-6-bb9"
+    "content": "content---docs-reference-core-plugin-3-f-9-d06"
   },
-  "/docs/dom/mathml-dda": {
+  "/docs/reference/dom/html-093": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-dom-mathml-4-f-4-d9b"
+    "content": "content---docs-reference-dom-html-715-836"
   },
-  "/docs/dom/svg-0d9": {
+  "/docs/reference/dom/mathml-aee": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-dom-svge-08-17f"
+    "content": "content---docs-reference-dom-mathml-854-182"
   },
-  "/docs/getting-started/overview-1c5": {
+  "/docs/reference/dom/svg-254": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-overview-7-a-9-af0"
+    "content": "content---docs-reference-dom-svgc-1-a-b08"
   },
-  "/docs/getting-started/quick-start-595": {
+  "/docs/reference/overview-90f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-quick-start-588-94b"
+    "content": "content---docs-reference-overview-226-ce1"
   },
-  "/docs/routing/Advanced-69d": {
+  "/docs/reference/routing/advanced-198": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-routing-advanced-6-d-4-824"
+    "content": "content---docs-reference-routing-advanced-200-2b6"
   },
-  "/docs/routing/history-ccc": {
+  "/docs/reference/routing/history-813": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-routing-history-22-a-26d"
+    "content": "content---docs-reference-routing-history-2-e-9-4a8"
   },
-  "/docs/routing/router-452": {
+  "/docs/reference/routing/Installation-80b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-routing-routerc-9-a-c01"
+    "content": "content---docs-reference-routing-installation-30-d-c06"
   },
-  "/docs/routing/setup-e6d": {
+  "/docs/reference/routing/router-f43": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-routing-setup-6-b-5-54f"
+    "content": "content---docs-reference-routing-routerc-98-b10"
+  },
+  "/docs/reference/routing/router-instance-b27": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-reference-routing-router-instance-057-42c"
+  },
+  "/docs/tutorial/quick-start-661": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-quick-start-6-e-2-6e7"
+  },
+  "/docs/tutorial/routing-2d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-routing-779-05a"
+  },
+  "/docs/tutorial/ssr-053": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-ssr-6-f-2-30e"
   },
   "/-e5f": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",

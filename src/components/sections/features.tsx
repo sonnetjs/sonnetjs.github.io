@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import { Card, CardDescription, CardHeader, CardTitle } from '../ui/card';
+import { cn } from '@site/src/lib/utils';
 
 type FeatureItem = {
   icon: string;
@@ -70,25 +71,35 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ icon, title, description }: FeatureItem) {
+function Feature({ title, description }: FeatureItem) {
+  const Icon = ({
+    className,
+    ...rest
+  }: React.HTMLAttributes<HTMLDivElement>) => {
+    return (
+      <div
+        {...rest}
+        className={cn(
+          'dark:border-zinc-200 border-zinc-700 size-6 absolute',
+          className,
+        )}
+      />
+    );
+  };
   return (
-    <Card>
+    <div className="relative border-2 rounded-md border-zinc-100 dark:border-zinc-700">
+      <Icon className="-top-0.5 -left-0.5 border-l-2 border-t-2 rounded-tl-md" />
+      <Icon className="-top-0.5 -right-0.5 border-r-2 border-t-2 rounded-tr-md" />
+      <Icon className="-bottom-0.5 -left-0.5 border-l-2 border-b-2 rounded-bl-md" />
+      <Icon className="-bottom-0.5 -right-0.5 border-r-2 border-b-2 rounded-br-md" />
       <CardHeader>
-        <div
-          className={clsx(
-            'w-12 h-12 bg-muted/50 flex items-center justify-center rounded',
-          )}
-        >
-          {icon}
-        </div>
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>
       </CardHeader>
-    </Card>
+    </div>
   );
 }
-
-export default function HomepageFeatures(): JSX.Element {
+export function HomepageFeatures(): JSX.Element {
   return (
     <section className="flex items-center justify-center w-full min-h-screen px-0 py-8">
       <div className="container">

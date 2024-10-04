@@ -8,130 +8,151 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "getting-started/overview",
+          "mainDocId": "tutorial/quick-start",
           "docs": [
             {
-              "id": "core/application",
-              "path": "/docs/core/application",
-              "sidebar": "docSidebar"
+              "id": "reference/cli",
+              "path": "/docs/reference/cli",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "core/component/introduction",
-              "path": "/docs/core/component/introduction",
-              "sidebar": "docSidebar"
+              "id": "reference/core/application",
+              "path": "/docs/reference/core/application",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "core/component/lifecycle",
-              "path": "/docs/core/component/lifecycle",
-              "sidebar": "docSidebar"
+              "id": "reference/core/component/introduction",
+              "path": "/docs/reference/core/component/introduction",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "core/component/methods",
-              "path": "/docs/core/component/methods",
-              "sidebar": "docSidebar"
+              "id": "reference/core/component/lifecycle",
+              "path": "/docs/reference/core/component/lifecycle",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "core/component/props",
-              "path": "/docs/core/component/props",
-              "sidebar": "docSidebar"
+              "id": "reference/core/component/methods",
+              "path": "/docs/reference/core/component/methods",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "core/installation",
-              "path": "/docs/core/installation",
-              "sidebar": "docSidebar"
+              "id": "reference/core/component/props",
+              "path": "/docs/reference/core/component/props",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "core/plugin",
-              "path": "/docs/core/plugin",
-              "sidebar": "docSidebar"
+              "id": "reference/core/component/reactivity",
+              "path": "/docs/reference/core/component/reactivity",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "core/ssr",
-              "path": "/docs/core/ssr",
-              "sidebar": "docSidebar"
+              "id": "reference/core/index",
+              "path": "/docs/reference/core/",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "dom/html",
-              "path": "/docs/dom/html",
-              "sidebar": "docSidebar"
+              "id": "reference/core/plugin",
+              "path": "/docs/reference/core/plugin",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "dom/index",
+              "id": "reference/dom/html",
+              "path": "/docs/reference/dom/html",
+              "sidebar": "referenceSidebar"
+            },
+            {
+              "id": "reference/dom/index",
               "path": "/docs/category/sonnet-dom",
-              "sidebar": "docSidebar"
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "dom/mathml",
-              "path": "/docs/dom/mathml",
-              "sidebar": "docSidebar"
+              "id": "reference/dom/mathml",
+              "path": "/docs/reference/dom/mathml",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "dom/svg",
-              "path": "/docs/dom/svg",
-              "sidebar": "docSidebar"
+              "id": "reference/dom/svg",
+              "path": "/docs/reference/dom/svg",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "getting-started/overview",
-              "path": "/docs/getting-started/overview",
-              "sidebar": "docSidebar"
+              "id": "reference/overview",
+              "path": "/docs/reference/overview",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "getting-started/quick-start",
-              "path": "/docs/getting-started/quick-start",
-              "sidebar": "docSidebar"
+              "id": "reference/routing/advanced",
+              "path": "/docs/reference/routing/advanced",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "routing/Advanced",
-              "path": "/docs/routing/Advanced",
-              "sidebar": "docSidebar"
+              "id": "reference/routing/history",
+              "path": "/docs/reference/routing/history",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "routing/history",
-              "path": "/docs/routing/history",
-              "sidebar": "docSidebar"
+              "id": "reference/routing/Installation",
+              "path": "/docs/reference/routing/Installation",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "routing/router",
-              "path": "/docs/routing/router",
-              "sidebar": "docSidebar"
+              "id": "reference/routing/router",
+              "path": "/docs/reference/routing/router",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "routing/setup",
-              "path": "/docs/routing/setup",
-              "sidebar": "docSidebar"
+              "id": "reference/routing/router-instance",
+              "path": "/docs/reference/routing/router-instance",
+              "sidebar": "referenceSidebar"
             },
             {
-              "id": "/category/getting-started",
-              "path": "/docs/category/getting-started",
-              "sidebar": "docSidebar"
+              "id": "tutorial/quick-start",
+              "path": "/docs/tutorial/quick-start",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/routing",
+              "path": "/docs/tutorial/routing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/ssr",
+              "path": "/docs/tutorial/ssr",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/core",
               "path": "/docs/category/core",
-              "sidebar": "docSidebar"
+              "sidebar": "referenceSidebar"
             },
             {
               "id": "/category/component",
               "path": "/docs/category/component",
-              "sidebar": "docSidebar"
+              "sidebar": "referenceSidebar"
             },
             {
               "id": "/category/sonnet-dom",
               "path": "/docs/category/sonnet-dom",
-              "sidebar": "docSidebar"
+              "sidebar": "referenceSidebar"
             },
             {
               "id": "/category/routing",
               "path": "/docs/category/routing",
-              "sidebar": "docSidebar"
+              "sidebar": "referenceSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "docSidebar": {
+            "tutorialSidebar": {
               "link": {
-                "path": "/docs/category/getting-started",
-                "label": "Getting Started"
+                "path": "/docs/tutorial/quick-start",
+                "label": "tutorial/quick-start"
+              }
+            },
+            "referenceSidebar": {
+              "link": {
+                "path": "/docs/reference/overview",
+                "label": "reference/overview"
               }
             }
           }

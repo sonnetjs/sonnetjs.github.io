@@ -234,153 +234,171 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '950'),
+    component: ComponentCreator('/docs', 'd8c'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'db3'),
+        component: ComponentCreator('/docs', 'dee'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'd1a'),
+            component: ComponentCreator('/docs', '548'),
             routes: [
               {
                 path: '/docs/category/component',
-                component: ComponentCreator('/docs/category/component', '5d7'),
+                component: ComponentCreator('/docs/category/component', '6c9'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
                 path: '/docs/category/core',
-                component: ComponentCreator('/docs/category/core', 'b5b'),
+                component: ComponentCreator('/docs/category/core', 'bfe'),
                 exact: true,
-                sidebar: "docSidebar"
-              },
-              {
-                path: '/docs/category/getting-started',
-                component: ComponentCreator('/docs/category/getting-started', 'd57'),
-                exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
                 path: '/docs/category/routing',
-                component: ComponentCreator('/docs/category/routing', 'ef3'),
+                component: ComponentCreator('/docs/category/routing', '269'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
                 path: '/docs/category/sonnet-dom',
-                component: ComponentCreator('/docs/category/sonnet-dom', 'def'),
+                component: ComponentCreator('/docs/category/sonnet-dom', '227'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
                 path: '/docs/category/sonnet-dom',
-                component: ComponentCreator('/docs/category/sonnet-dom', 'b69'),
+                component: ComponentCreator('/docs/category/sonnet-dom', '182'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/core/application',
-                component: ComponentCreator('/docs/core/application', '7e1'),
+                path: '/docs/reference/cli',
+                component: ComponentCreator('/docs/reference/cli', '94e'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/core/component/introduction',
-                component: ComponentCreator('/docs/core/component/introduction', '5d9'),
+                path: '/docs/reference/core/',
+                component: ComponentCreator('/docs/reference/core/', '34f'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/core/component/lifecycle',
-                component: ComponentCreator('/docs/core/component/lifecycle', '1a5'),
+                path: '/docs/reference/core/application',
+                component: ComponentCreator('/docs/reference/core/application', '237'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/core/component/methods',
-                component: ComponentCreator('/docs/core/component/methods', 'e26'),
+                path: '/docs/reference/core/component/introduction',
+                component: ComponentCreator('/docs/reference/core/component/introduction', '4c3'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/core/component/props',
-                component: ComponentCreator('/docs/core/component/props', '81c'),
+                path: '/docs/reference/core/component/lifecycle',
+                component: ComponentCreator('/docs/reference/core/component/lifecycle', '90b'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/core/installation',
-                component: ComponentCreator('/docs/core/installation', 'fb5'),
+                path: '/docs/reference/core/component/methods',
+                component: ComponentCreator('/docs/reference/core/component/methods', '2ca'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/core/plugin',
-                component: ComponentCreator('/docs/core/plugin', 'd45'),
+                path: '/docs/reference/core/component/props',
+                component: ComponentCreator('/docs/reference/core/component/props', 'a5f'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/core/ssr',
-                component: ComponentCreator('/docs/core/ssr', '71f'),
+                path: '/docs/reference/core/component/reactivity',
+                component: ComponentCreator('/docs/reference/core/component/reactivity', 'ff7'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/dom/html',
-                component: ComponentCreator('/docs/dom/html', 'a93'),
+                path: '/docs/reference/core/plugin',
+                component: ComponentCreator('/docs/reference/core/plugin', '472'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/dom/mathml',
-                component: ComponentCreator('/docs/dom/mathml', 'dda'),
+                path: '/docs/reference/dom/html',
+                component: ComponentCreator('/docs/reference/dom/html', '093'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/dom/svg',
-                component: ComponentCreator('/docs/dom/svg', '0d9'),
+                path: '/docs/reference/dom/mathml',
+                component: ComponentCreator('/docs/reference/dom/mathml', 'aee'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/getting-started/overview',
-                component: ComponentCreator('/docs/getting-started/overview', '1c5'),
+                path: '/docs/reference/dom/svg',
+                component: ComponentCreator('/docs/reference/dom/svg', '254'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/getting-started/quick-start',
-                component: ComponentCreator('/docs/getting-started/quick-start', '595'),
+                path: '/docs/reference/overview',
+                component: ComponentCreator('/docs/reference/overview', '90f'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/routing/Advanced',
-                component: ComponentCreator('/docs/routing/Advanced', '69d'),
+                path: '/docs/reference/routing/advanced',
+                component: ComponentCreator('/docs/reference/routing/advanced', '198'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/routing/history',
-                component: ComponentCreator('/docs/routing/history', 'ccc'),
+                path: '/docs/reference/routing/history',
+                component: ComponentCreator('/docs/reference/routing/history', '813'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/routing/router',
-                component: ComponentCreator('/docs/routing/router', '452'),
+                path: '/docs/reference/routing/Installation',
+                component: ComponentCreator('/docs/reference/routing/Installation', '80b'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
               },
               {
-                path: '/docs/routing/setup',
-                component: ComponentCreator('/docs/routing/setup', 'e6d'),
+                path: '/docs/reference/routing/router',
+                component: ComponentCreator('/docs/reference/routing/router', 'f43'),
                 exact: true,
-                sidebar: "docSidebar"
+                sidebar: "referenceSidebar"
+              },
+              {
+                path: '/docs/reference/routing/router-instance',
+                component: ComponentCreator('/docs/reference/routing/router-instance', 'b27'),
+                exact: true,
+                sidebar: "referenceSidebar"
+              },
+              {
+                path: '/docs/tutorial/quick-start',
+                component: ComponentCreator('/docs/tutorial/quick-start', '661'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/tutorial/routing',
+                component: ComponentCreator('/docs/tutorial/routing', '2d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/tutorial/ssr',
+                component: ComponentCreator('/docs/tutorial/ssr', '053'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               }
             ]
           }

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksonnet_docs=self.webpackChunksonnet_docs||[]).push([[2677],{3762:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Getting Started","slug":"/category/getting-started","permalink":"/docs/category/getting-started","sidebar":"docSidebar","navigation":{"next":{"title":"Overview","permalink":"/docs/getting-started/overview"}}}}')}}]);

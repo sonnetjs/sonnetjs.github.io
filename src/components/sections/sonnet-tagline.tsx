@@ -1,4 +1,4 @@
-import BlurIn from '@site/src/components/magicui/blur-in';
+import BlurIn from '@site/src/components/ui/blur-in';
 
 export function SonnetTagline() {
   return (

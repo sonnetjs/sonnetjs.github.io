@@ -3,14 +3,14 @@ import Link from '@docusaurus/Link';
 
 import { Button } from '../ui/button';
 import { CopyIcon, SquarePatterns, TickIcon } from '../assets/Icons';
-import AnimatedShinyText from '../magicui/animated-shiny-text';
+import AnimatedShinyText from '../ui/animated-shiny-text';
 import { cn } from '@site/src/lib/utils';
 import { ArrowRight, ArrowRightIcon } from 'lucide-react';
-import ShinyButton from '../magicui/shiny-button';
+import ShinyButton from '../ui/shiny-button';
 
 const NPX_COMMAND = 'npx create-sonnet-app@latest';
 
-export default function HeroSection() {
+export function HeroSection() {
   const [isCopied, setIsCopied] = useState(false);
 
   function handleCopy() {
@@ -49,16 +49,16 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="flex gap-4">
-          <Link href="/docs/getting-started/overview" target="blank">
+          <Link href="/docs/tutorial/quick-start" target="blank">
             <Button
               className="px-6"
               variant="gooeyLeft"
             >
-              Overview
+              Quick Start
             </Button>
           </Link>
-          <Link href="/docs/getting-started/quick-start" target="blank">
-            <ShinyButton text="Quick Start" />
+          <Link href="/docs/reference/overview" target="blank">
+            <ShinyButton text="Overview" />
           </Link>
         </div>
         <div className="flex items-start gap-2 font-mono rounded">

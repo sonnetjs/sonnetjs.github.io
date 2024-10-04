@@ -21,7 +21,7 @@
     "permalink": "/docs/core/component/props"
   },
   "next": {
-    "title": "Application",
-    "permalink": "/docs/core/application"
+    "title": "Reactivity",
+    "permalink": "/docs/core/component/reactivity"
   }
 }
