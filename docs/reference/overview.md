@@ -4,7 +4,7 @@ sidebar_position: 0
 
 # Overview
 
-Sonnet JS is a ligtweight, fast and easy to use JavaScript framework for building modern web applications. It is more or less a way to structure your Vanilla JS code in a way that is more maintainable and scalable. It is not a full-fledged framework like Angular or React, but it provides a solid foundation for building modern web applications. The goal of Sonnet JS is to provide a simple and easy to use framework that allows you to build modern web applications without having to learn a lot of new concepts or technologies.
+Sonnet JS is a lightweight, fast and easy to use JavaScript framework for building modern web applications. It is more or less a way to structure your Vanilla JS code in a way that is more maintainable and scalable. It is not a full-fledged framework like Angular or React, but it provides a solid foundation for building modern web applications. The goal of Sonnet JS is to provide a simple and easy to use framework that allows you to build modern web applications without having to learn a lot of new concepts or technologies.
 
 ## Features
 
