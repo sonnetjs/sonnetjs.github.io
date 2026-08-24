@@ -22,7 +22,7 @@
             <section class="hero">
                 <h1 class="title">SonnetJS</h1>
                 <p class="tagline">
-                    You don't always need <span class="no-need">node_modules</span>
+                    You don't always need <span class="no-need word-in" id="no-need">node_modules</span>
                 </p>
                 <p class="tagline">
                     A zero-dependency, zero-build component boilerplate.
@@ -104,6 +104,32 @@ git clone https://github.com/sonnetjs/sonnet
         button.addEventListener('click', () => {
             button.textContent = `count is ${++count}`
         })
+
+        // Hero word cycle. The 200ms exit delay must match the `word-out`
+        // animation duration in styles.css.
+        const words = [
+            'node_modules',
+            'bundlers',
+            'a compiler',
+            'transpilers',
+            'a virtual DOM',
+            'hydration',
+            'reactivity',
+            'config files',
+            'a dev server',
+        ]
+        const word = document.getElementById('no-need')
+        let index = 0
+        setInterval(() => {
+            word.classList.add('word-out')
+            setTimeout(() => {
+                index = (index + 1) % words.length
+                word.textContent = words[index]
+                word.classList.remove('word-out', 'word-in')
+                void word.offsetWidth // restart the entrance animation
+                word.classList.add('word-in')
+            }, 200)
+        }, 2000)
     </script>
 </body>
 </html>

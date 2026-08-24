@@ -173,6 +173,35 @@ code {
     background: var(--color-accent-soft);
 }
 
+/* Entrance: rises in from below */
+.tagline .no-need.word-in {
+    animation: word-in 0.25s ease;
+}
+
+@keyframes word-in {
+    from {
+        opacity: 0;
+        transform: translateY(0.5em);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* Exit: added by the word-cycle script before each swap; duration must
+   match the exit delay in index.html */
+.tagline .no-need.word-out {
+    animation: word-out 0.2s ease forwards;
+}
+
+@keyframes word-out {
+    to {
+        opacity: 0;
+        transform: translateY(-0.5em);
+    }
+}
+
 .hero-actions {
     display: flex;
     gap: 0.75rem;
