@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonnetJS: zero-build components in vanilla JavaScript</title>
+    <meta name="description" content="A zero-dependency, zero-build component boilerplate in vanilla JavaScript. No bundler, no npm install. Open index.html and go.">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="site">
+        <header class="header">
+            <a class="brand" href="./">SonnetJS</a>
+            <span class="badge">v0.1.0</span>
+            <nav class="nav">
+                <a href="./docs.html">Docs</a>
+                <a href="https://github.com/sonnetjs/sonnet">GitHub</a>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="hero">
+                <h1 class="title">SonnetJS</h1>
+                <p class="tagline">
+                    You don't always need <span class="no-need">node_modules</span>
+                </p>
+                <p class="tagline">
+                    A zero-dependency, zero-build component boilerplate.
+                    Not a framework, just plain JavaScript with some opinions.
+                    Open <code>index.html</code> and go.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="./docs.html">Get started</a>
+                    <a class="btn" href="https://github.com/sonnetjs/sonnet">View on GitHub</a>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>A component is a class and a template</h2>
+                <p>
+                    Define the markup, wire behavior in <code>script</code> with
+                    ordinary DOM APIs. The button below is this exact code, running live.
+                </p>
+                <div class="card example">
+                    <div class="example-preview">
+                        <button id="demo-counter" type="button">count is 0</button>
+                    </div>
+                    <pre class="code-block"><code><span class="tok-kw">class</span> <span class="tok-cls">Counter</span> <span class="tok-kw">extends</span> <span class="tok-cls">Component</span> {
+    <span class="tok-kw">static</span> template = <span class="tok-str">`&lt;button&gt;count is 0&lt;/button&gt;`</span>
+
+    <span class="tok-fn">script</span>(root) {
+        <span class="tok-kw">let</span> count = 0
+        <span class="tok-kw">const</span> button = root.<span class="tok-fn">querySelector</span>(<span class="tok-str">'button'</span>)
+        button.<span class="tok-fn">addEventListener</span>(<span class="tok-str">'click'</span>, () =&gt; {
+            button.textContent = <span class="tok-str">`count is ${++count}`</span>
+        })
+    }
+}</code></pre>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Why Sonnet</h2>
+                <ul class="features">
+                    <li>
+                        <strong>Zero build</strong>
+                        <span>Classic scripts only. Works straight from the filesystem over <code>file://</code>.</span>
+                    </li>
+                    <li>
+                        <strong>Zero dependencies</strong>
+                        <span>The whole framework is one small file: <code>core.js</code>.</span>
+                    </li>
+                    <li>
+                        <strong>No magic</strong>
+                        <span>No virtual DOM, no reactivity, no proxies. What you write is what runs.</span>
+                    </li>
+                    <li>
+                        <strong>Just opinions</strong>
+                        <span>One class per component, a template, plain DOM APIs, JSDoc types. Conventions, not machinery.</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>Get started in seconds</h2>
+                <pre class="code-block"><code><span class="tok-cmt"># grab the boilerplate</span>
+git clone https://github.com/sonnetjs/sonnet
+<span class="tok-cmt"># there is no step two, just open index.html in a browser</span></code></pre>
+                <p class="hint">
+                    Read the <a href="./docs.html">docs</a> to learn the full API. It fits on one page.
+                </p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>No bundler. No dependencies. Open <code>index.html</code> and go.</p>
+        </footer>
+    </div>
+
+    <script>
+        // The live demo: the same wiring the Counter example shows.
+        let count = 0
+        const button = document.getElementById('demo-counter')
+        button.addEventListener('click', () => {
+            button.textContent = `count is ${++count}`
+        })
+    </script>
+</body>
+</html>

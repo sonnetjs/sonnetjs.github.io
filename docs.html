@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonnetJS Docs</title>
+    <meta name="description" content="The complete SonnetJS documentation. It's plain JavaScript with a few opinions, and this page covers all of them.">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="site">
+        <header class="header">
+            <a class="brand" href="./">SonnetJS</a>
+            <span class="badge">v0.1.0</span>
+            <nav class="nav">
+                <a href="./docs.html" aria-current="page">Docs</a>
+                <a href="https://github.com/sonnetjs/sonnet">GitHub</a>
+            </nav>
+        </header>
+
+        <main class="doc">
+            <div class="doc-header">
+                <h1>Documentation</h1>
+                <p>It's plain JavaScript with a few opinions, and this page covers all of them.</p>
+                <ul class="toc">
+                    <li><a href="#getting-started">Getting started</a></li>
+                    <li><a href="#structure">Structure</a></li>
+                    <li><a href="#components">Components</a></li>
+                    <li><a href="#props">Passing data</a></li>
+                    <li><a href="#composition">Composition</a></li>
+                    <li><a href="#adding">Adding a component</a></li>
+                    <li><a href="#constraints">Constraints</a></li>
+                </ul>
+            </div>
+
+            <section id="getting-started">
+                <h2>Getting started</h2>
+                <p>
+                    Clone the boilerplate and open <code>index.html</code> in a browser.
+                    There is no install step. It works straight from the filesystem
+                    over <code>file://</code>.
+                </p>
+                <pre class="code-block"><code>git clone https://github.com/sonnetjs/sonnet</code></pre>
+            </section>
+
+            <section id="structure">
+                <h2>Structure</h2>
+                <pre class="code-block"><code>index.html            <span class="tok-cmt">entry page; loads scripts in dependency order</span>
+jsconfig.json         <span class="tok-cmt">type checking + autocomplete in VS Code</span>
+src/
+  styles.css          <span class="tok-cmt">global styles (design tokens + page styles)</span>
+  core.js             <span class="tok-cmt">a Component base class and a mount() helper</span>
+  components/         <span class="tok-cmt">one file per component</span>
+  main.js             <span class="tok-cmt">entry point: mounts App into #app</span></code></pre>
+                <p>
+                    These are classic scripts, with no modules and no imports, so load order
+                    in <code>index.html</code> is the dependency graph:
+                    <code>core.js</code> first, then component files, then
+                    <code>main.js</code> last.
+                </p>
+            </section>
+
+            <section id="components">
+                <h2>Components</h2>
+                <p>
+                    A component is a class with two things: a static
+                    <code>template</code> (the markup) and a <code>script(root)</code>
+                    method (the behavior). <code>root</code> is the cloned template
+                    content; from there it's ordinary DOM code:
+                    <code>querySelector</code>, <code>textContent</code>,
+                    <code>addEventListener</code>.
+                </p>
+                <pre class="code-block"><code><span class="tok-kw">class</span> <span class="tok-cls">Counter</span> <span class="tok-kw">extends</span> <span class="tok-cls">Component</span> {
+    <span class="tok-kw">static</span> template = <span class="tok-str">`&lt;button&gt;count is 0&lt;/button&gt;`</span>
+
+    <span class="tok-fn">script</span>(root) {
+        <span class="tok-kw">let</span> count = 0
+        <span class="tok-kw">const</span> button = root.<span class="tok-fn">querySelector</span>(<span class="tok-str">'button'</span>)
+        button.<span class="tok-fn">addEventListener</span>(<span class="tok-str">'click'</span>, () =&gt; {
+            button.textContent = <span class="tok-str">`count is ${++count}`</span>
+        })
+    }
+}</code></pre>
+                <p>
+                    <code>mount(element, component)</code> puts it on the page:
+                </p>
+                <pre class="code-block"><code><span class="tok-fn">mount</span>(document.<span class="tok-fn">getElementById</span>(<span class="tok-str">'app'</span>), <span class="tok-kw">new</span> <span class="tok-cls">Counter</span>())</code></pre>
+                <p>
+                    Templates are static, trusted HTML only. Never interpolate data
+                    into them; dynamic values are set in <code>script</code> via
+                    <code>textContent</code>.
+                </p>
+            </section>
+
+            <section id="props">
+                <h2>Passing data</h2>
+                <p>
+                    There is no built-in props mechanism. A component that needs data
+                    defines its own constructor and stores what it's given; it's just
+                    a class. And there is no reactivity either: when data changes,
+                    you update the DOM yourself in an event handler, exactly like the
+                    counter above does.
+                </p>
+                <pre class="code-block"><code><span class="tok-kw">class</span> <span class="tok-cls">Greeting</span> <span class="tok-kw">extends</span> <span class="tok-cls">Component</span> {
+    <span class="tok-kw">static</span> template = <span class="tok-str">`&lt;p data-ref="text"&gt;&lt;/p&gt;`</span>
+
+    <span class="tok-fn">constructor</span>(props = {}) {
+        <span class="tok-kw">super</span>()
+        <span class="tok-kw">this</span>.props = props
+    }
+
+    <span class="tok-fn">script</span>(root) {
+        root.<span class="tok-fn">querySelector</span>(<span class="tok-str">'[data-ref="text"]'</span>).textContent =
+            <span class="tok-str">`Hello, ${this.props.name ?? 'world'}`</span>
+    }
+}
+
+<span class="tok-fn">mount</span>(document.<span class="tok-fn">getElementById</span>(<span class="tok-str">'app'</span>), <span class="tok-kw">new</span> <span class="tok-cls">Greeting</span>({ name: <span class="tok-str">'Sonnet'</span> }))</code></pre>
+            </section>
+
+            <section id="composition">
+                <h2>Composition</h2>
+                <p>
+                    Put placeholder elements in the template and mount children into
+                    them from <code>script</code>:
+                </p>
+                <pre class="code-block"><code><span class="tok-fn">script</span>(root) {
+    <span class="tok-fn">mount</span>(root.<span class="tok-fn">querySelector</span>(<span class="tok-str">'[data-ref="counter"]'</span>), <span class="tok-kw">new</span> <span class="tok-cls">Counter</span>())
+}</code></pre>
+            </section>
+
+            <section id="adding">
+                <h2>Adding a component</h2>
+                <ol>
+                    <li>
+                        Create <code>src/components/&lt;name&gt;.js</code> with a
+                        <code>class &lt;Name&gt; extends Component</code>.
+                    </li>
+                    <li>
+                        Document its props with a JSDoc <code>@typedef</code> so call
+                        sites get autocomplete.
+                    </li>
+                    <li>
+                        Add its <code>&lt;script&gt;</code> tag to
+                        <code>index.html</code> <strong>before</strong>
+                        <code>main.js</code>.
+                    </li>
+                </ol>
+            </section>
+
+            <section id="constraints">
+                <h2>Constraints to know</h2>
+                <ul>
+                    <li>
+                        Every top-level <code>class</code> / <code>function</code> /
+                        <code>const</code> is a global shared across all scripts,
+                        so keep names unique.
+                    </li>
+                    <li>
+                        Templates are parsed once per class and cached; they cannot
+                        interpolate per-instance values, so set dynamic content in
+                        <code>script</code>.
+                    </li>
+                    <li>
+                        There is no re-render machinery. Components render once;
+                        after that, update the DOM directly in event handlers.
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>No bundler. No dependencies. Open <code>index.html</code> and go.</p>
+        </footer>
+    </div>
+</body>
+</html>
